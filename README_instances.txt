@@ -1,4 +1,4 @@
-#cust #prod #vehi Q #predictError
+#cust #prod #vehi Q
 
 
 X(0) Y(0)
@@ -49,3 +49,9 @@ for each cust
    endfor
 
 endfor
+
+# Node-Product Relationships
+for each customer
+	productsList, uncertaintyRelationship
+for each product
+	customersList, uncertaintyRelationship
